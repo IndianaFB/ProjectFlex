@@ -97,7 +97,9 @@ table{
     border-style: solid;
     border-color: greenyellow; */
     border: 1px solid black;
-
+    border-spacing: 5px;
+    margin: 10px;
+    padding: 30px;
 }   
 td, th{
     margin: 15px;
@@ -108,6 +110,8 @@ td, th{
     border-color: greenyellow; */
     border: 3px solid greenyellow;
     border-radius: 10px;
+
+    padding: 5px;
 }
 tr:nth-child(even){
     background-color: greenyellow;
@@ -116,6 +120,15 @@ tr:nth-child(even){
 thead{
     background-color: greenyellow;
     color: black;
+
+    height: 70px;
+}
+caption{
+    text-align: left;
+    color: greenyellow;
+    size: 1.5em;
+    /* margin: 10px; */
+    padding-left: 30px;
 }
 
 
