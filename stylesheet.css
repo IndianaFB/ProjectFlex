@@ -130,5 +130,10 @@ caption{
     /* margin: 10px; */
     padding-left: 30px;
 }
-
+/* List styling */
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    size: 1.5em;
+}
 
