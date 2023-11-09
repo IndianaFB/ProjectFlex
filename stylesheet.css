@@ -131,7 +131,7 @@ caption{
     padding-left: 30px;
 }
 /* List styling */
-ul{
+ul, footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     size: 1.5em;
@@ -143,4 +143,15 @@ iframe{
     width: 600px;
     height: 450px;
     
+}
+/* Footer styling */
+footer{
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+
+    padding: 30px;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+
 }
